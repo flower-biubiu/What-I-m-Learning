@@ -40,13 +40,6 @@ function quickSort(array){
 
 }
 
-function swap(array, x, y){
-    let temp = array[x];
-    array[x] = array[y];
-    array[y] = temp;
-
-}
-
 
 let arr = [2, 6, 1,7,8];
 quickSort(arr);
