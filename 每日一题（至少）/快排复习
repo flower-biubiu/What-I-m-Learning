@@ -1,4 +1,5 @@
-方法一：
+#方法一：
+```javascript
 function quickSort(array){
     let left = [];
     let right = [];
@@ -20,10 +21,11 @@ function quickSort(array){
     return quickSort(left).concat(pivot, quickSort(right));
 
 }
+```
 
+#方法二：
 
-方法二：
-
+```javascript
 function partition(array, left, right){
     let pivot = array[left];
     let i = left;
@@ -55,3 +57,4 @@ function quick(array, left, right){
 function quickSort(array){
     quick(array, 0, array.length - 1);
 }
+```

@@ -1,4 +1,4 @@
-方法一：
+
 
 function search (array, target){
     if(array.length < 1 || array[0].length < 1){
@@ -29,8 +29,6 @@ function search (array, target){
 let arr = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]];
 
 console.log (search(arr, 10));
-
-方法二：
 
 function search(array, target){
     let m = array.length;

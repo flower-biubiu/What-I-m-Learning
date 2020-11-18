@@ -1,4 +1,5 @@
-1.普通查找
+#1.普通查找
+```javascript
 function find(array, left, right, target){
     let index = array.length / 2;
     let flag = array[index];
@@ -11,8 +12,4 @@ function find(array, left, right, target){
         find(array, flag + 1, right);
     }
 }
-
-
-
-
-}
+```
