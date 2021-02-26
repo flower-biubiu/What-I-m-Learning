@@ -10,7 +10,6 @@
       <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
   </div>
-
 </template>
 
 <script>
@@ -19,9 +18,7 @@ export default {
   data () {
     return {
       swiperOptions: {
-        pagination: {
-          el: '.swiper-pagination'
-        },
+        pagination: '.swiper-pagination',
         loop: true
         // Some Swiper option/callback...
       },
